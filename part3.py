@@ -19,3 +19,9 @@ Enter the height: 3
 """
 
 #write your code here 
+number = int(input("Enter a number to be the base of your rectangle: "))
+
+number2 = int(input("Enter a number to be the height of your rectangle: "))
+
+for i in range (1, number2+1): 
+  print('*' * number)
